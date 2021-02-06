@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "koplamp.h"
 
-koplamp::koplamp(byte led1, byte led2)
+koplamp::koplamp(byte led1, byte led2, unsigned long startdelay = 0)
 {
   _led1 = led1;
   _led2 = led2;

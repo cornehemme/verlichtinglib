@@ -15,7 +15,7 @@ private:
   unsigned long _DELAY_TIME = 0; 
   unsigned long _delayStart = 0; // the time the delay started
 public:
-  koplamp(byte led1, byte led2);
+  koplamp(byte led1, byte led2, unsigned long startdelay);
   void update();
 };
 
