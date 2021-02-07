@@ -5,6 +5,7 @@ koplamp::koplamp(byte led1, byte led2, unsigned long startdelay = 0)
 {
   _led1 = led1;
   _led2 = led2;
+  _DELAY_TIME = startdelay;
   pinMode(_led1, OUTPUT);
   pinMode(_led2, OUTPUT);
 }
